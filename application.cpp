@@ -21,13 +21,6 @@ void window::event_loop(){
     event ev;
     int pista = -1;
     while (gin >> ev && megnyitva){
-        if (ev.keycode ==key_escape){
-            ofstream fajl("mentes.txt", ios::trunc);
-            fajl.close();
-            for (size_t i=0;i<lajos.size();i++) lajos[i]->mentes();
-            megnyitva=false;
-
-        }
         for (size_t i=0;i<lajos.size();i++) {
                     if (lajos[i]->aktiv(ev.pos_x, ev.pos_y)) {
                         pista=i;

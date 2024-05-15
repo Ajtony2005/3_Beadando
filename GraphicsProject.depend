@@ -803,7 +803,7 @@
 
 1677893378 d:\egyetem\3_beadando\graphicslib\keytbl.h
 
-1715603738 source:d:\egyetem\3_beadando\main.cpp
+1715768271 source:d:\egyetem\3_beadando\main.cpp
 	"graphics.hpp"
 	<vector>
 	<cmath>
@@ -815,12 +815,13 @@
 	"Application.hpp"
 	"gomb.hpp"
 	<functional>
+	"talalt.hpp"
 
 1677893378 d:\egyetem\3_beadando\include\graphics.hpp
 	<string>
 	<vector>
 
-1714642494 d:\egyetem\3_beadando\os.hpp
+1715764967 d:\egyetem\3_beadando\os.hpp
 	"graphics.hpp"
 	"Application.hpp"
 
@@ -845,7 +846,7 @@
 	<vector>
 	<functional>
 
-1714942375 source:d:\egyetem\3_beadando\application.cpp
+1715764998 source:d:\egyetem\3_beadando\application.cpp
 	"Application.hpp"
 	"graphics.hpp"
 	<iostream>
@@ -885,4 +886,13 @@
 	"os.hpp"
 	<iostream>
 	<fstream>
+
+1715767240 d:\egyetem\3_beadando\talalt.hpp
+	"os.hpp"
+
+1715767335 source:d:\egyetem\3_beadando\talalt.cpp
+	"graphics.hpp"
+	"os.hpp"
+	"Application.hpp"
+	"talalt.hpp"
 

@@ -14,7 +14,6 @@ public:
     virtual bool aktiv(int evx, int evy);
     virtual void rajzol()=0;
     virtual void fogantyu(genv::event ev) = 0;
-    virtual void mentes()=0;
 };
 
 

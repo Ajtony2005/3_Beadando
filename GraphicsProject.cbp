@@ -51,14 +51,24 @@
 			<Add library="dxguid" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="Application.hpp" />
+		<Unit filename="application.cpp" />
+		<Unit filename="gomb.cpp" />
+		<Unit filename="gomb.hpp" />
 		<Unit filename="graphicslib/graphics.cpp" />
 		<Unit filename="graphicslib/lib_test.cpp">
 			<Option target="lib_test" />
 		</Unit>
+		<Unit filename="kivalaszto.cpp" />
+		<Unit filename="kivalaszto.hpp" />
 		<Unit filename="main.cpp">
 			<Option target="Debug" />
 			<Option target="Release" />
 		</Unit>
+		<Unit filename="os.cpp" />
+		<Unit filename="os.hpp" />
+		<Unit filename="szamolos.cpp" />
+		<Unit filename="szamolos.hpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
