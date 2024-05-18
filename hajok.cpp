@@ -48,6 +48,9 @@ void hajok::fogantyu(event ev){
     if (ev.button==btn_left){
         if (ev.pos_x > x_kor && ev.pos_x < x_kor + meretx){
             if (ev.pos_y > y_kor && ev.pos_y < y_kor + merety){
+                    x_kor=ev.pos_x-meretx/2;
+                    y_kor=ev.pos_y-meretx/2;
+                    torol();
 
 
         }

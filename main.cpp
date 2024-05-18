@@ -33,7 +33,7 @@ int main(){
     new hajok(b, 10, 10, 40, 40, 2);
     new hajok(b, 10, 200, 40, 40, 3);
     new hajok(b, 10, 350, 40, 40, 1);
-    new hajok(b, 10, 400, 40, 40, 4);
+    new hajok(b, 10, 400, 40, 40, 4
 
 
     b->event_loop();
