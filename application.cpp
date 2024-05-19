@@ -64,6 +64,15 @@ void window::event_loop(){
         case 2:
             lajos=&leiras;
             break;
+        case 3:
+            lajos=&jatek;
+            break;
+        case 4:
+            lajos=&nyertem;
+            break;
+        case 5:
+            lajos=&vesztettem;
+            break;
         }
         index=-1;
         pista=-1;

@@ -16,6 +16,9 @@ public:
     vector<os*> kezdo;
     vector<os*> lerakas;
     vector<os*> leiras;
+    vector<os*> jatek;
+    vector<os*> nyertem;
+    vector<os*> vesztettem;
 public:
     void event_loop();
     window(int XX, int YY);
@@ -31,6 +34,15 @@ public:
             break;
         case 2:
             leiras.push_back(a);
+            break;
+        case 3:
+            jatek.push_back(a);
+            break;
+        case 4:
+            nyertem.push_back(a);
+            break;
+       case 5:
+            vesztettem.push_back(a);
             break;
         }
         }
