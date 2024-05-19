@@ -71,8 +71,12 @@
 		</Unit>
 		<Unit filename="os.cpp" />
 		<Unit filename="os.hpp" />
+		<Unit filename="palya.cpp" />
+		<Unit filename="palya.hpp" />
 		<Unit filename="szamolos.cpp" />
 		<Unit filename="szamolos.hpp" />
+		<Unit filename="szoveg.cpp" />
+		<Unit filename="szoveg.hpp" />
 		<Unit filename="talalt.cpp" />
 		<Unit filename="talalt.hpp" />
 		<Extensions />
