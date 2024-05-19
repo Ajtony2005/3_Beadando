@@ -40,7 +40,7 @@ using namespace genv;
 
 int enpontszam=0;
 int ellenpontszam=0;
-
+bool elhaj[10][10]={false};
 
 
 void nyertem(){
@@ -82,7 +82,7 @@ void jatek(){
     }
         for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            new talalt(b, i * 35 + 410, j * 35 + 210, 35, 35, haj[j][i], false, true,  p, k);
+            new talalt(b, i * 35 + 410, j * 35 + 210, 35, 35, elhaj[j][i], false, true,  p, k);
         }
     }
 
@@ -242,6 +242,16 @@ int main() {
     q = bevan;
     k = gep;
     u = kezdo;
+    elhaj[5][9]=true;
+    elhaj[6][6]=true;
+    elhaj[6][7]=true;
+    elhaj[1][1]=true;
+    elhaj[2][1]=true;
+    elhaj[3][1]=true;
+    elhaj[9][3]=true;
+    elhaj[9][4]=true;
+    elhaj[9][5]=true;
+    elhaj[9][6]=true;
     b = new window(XX, YY);
     b->lajos = &b->kezdo;
     kezdo();
