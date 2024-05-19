@@ -803,7 +803,7 @@
 
 1677893378 d:\egyetem\3_beadando\graphicslib\keytbl.h
 
-1716043512 source:d:\egyetem\3_beadando\main.cpp
+1716110175 source:d:\egyetem\3_beadando\main.cpp
 	<vector>
 	<cmath>
 	<cstdlib>
@@ -812,9 +812,8 @@
 	"talalt.hpp"
 	"graphics.hpp"
 	"hajok.hpp"
-	<string>
-	<vector>
-	"kivalaszto.hpp"
+	"gomb.hpp"
+	<functional>
 
 1677893378 d:\egyetem\3_beadando\include\graphics.hpp
 	<string>
@@ -824,7 +823,7 @@
 	"graphics.hpp"
 	"Application.hpp"
 
-1714401780 d:\egyetem\3_beadando\application.hpp
+1716110194 d:\egyetem\3_beadando\application.hpp
 	"os.hpp"
 	<iostream>
 	<vector>
@@ -845,7 +844,7 @@
 	<vector>
 	<functional>
 
-1715764998 source:d:\egyetem\3_beadando\application.cpp
+1716110045 source:d:\egyetem\3_beadando\application.cpp
 	"Application.hpp"
 	"graphics.hpp"
 	<iostream>
@@ -863,7 +862,7 @@
 	"Application.hpp"
 	<functional>
 
-1716048589 source:d:\egyetem\3_beadando\kivalaszto.cpp
+1716049739 source:d:\egyetem\3_beadando\kivalaszto.cpp
 	"graphics.hpp"
 	"kivalaszto.hpp"
 	"os.hpp"
@@ -873,7 +872,7 @@
 	<fstream>
 	"Application.hpp"
 
-1714991710 source:d:\egyetem\3_beadando\os.cpp
+1716110047 source:d:\egyetem\3_beadando\os.cpp
 	"graphics.hpp"
 	<iostream>
 	"os.hpp"
@@ -900,9 +899,9 @@
 1715771646 d:\egyetem\3_beadando\lerakas.hpp
 	"os.hpp"
 
-1715772917 d:\egyetem\3_beadando\hajok.hpp
+1716061940 d:\egyetem\3_beadando\hajok.hpp
 
-1716042357 source:d:\egyetem\3_beadando\hajok.cpp
+1716064242 source:d:\egyetem\3_beadando\hajok.cpp
 	"graphics.hpp"
 	"os.hpp"
 	"Application.hpp"

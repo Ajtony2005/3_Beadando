@@ -13,6 +13,8 @@ gout.open(XX, YY);
 }
 bool megnyitva=true;
 
+
+
 void window::event_loop(){
     for (os * aliz : lajos) {
         aliz->rajzol();

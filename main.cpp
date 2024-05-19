@@ -6,6 +6,9 @@
 #include "talalt.hpp"
 #include "graphics.hpp"
 #include "hajok.hpp"
+#include "gomb.hpp"
+#include <functional>
+
 const int XX = 800;
 const int YY = 800;
 
@@ -13,10 +16,13 @@ const int YY = 800;
 using namespace std;
 using namespace genv;
 
+void lajos(){
+    window* a=new window(XX, YY);
+}
 
 
 int main(){
-
+    function<void()> f = lajos;
     bool haj [10][10];
     for (int i=0; i<10; i++){
         for (int j=0; j<10; j++){
@@ -33,7 +39,8 @@ int main(){
     new hajok(b, 10, 10, 40, 40, 2);
     new hajok(b, 10, 200, 40, 40, 3);
     new hajok(b, 10, 350, 40, 40, 1);
-    new hajok(b, 10, 400, 40, 40, 4
+    new hajok(b, 10, 400, 40, 40, 4);
+    new gomb(b, 400, 700, 200, 50, "Kész", f);
 
 
     b->event_loop();

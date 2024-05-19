@@ -6,6 +6,7 @@ using namespace std;
 class hajok: public os{
     int mekkora;
     bool forditas;
+    bool lenyomva;
 public:
     hajok(window* a, int x_kor, int y_kor, int meretx, int merety, int mekkora);
     void rajzol();
