@@ -12,6 +12,11 @@ public:
     void rajzol();
     void fogantyu(genv::event ev);
     void torol();
+    int getXKor() const;
+    int getYKor() const;
+    bool getForditas() const;
+    int getMekkora() const;
+
 
 };
 

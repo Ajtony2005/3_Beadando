@@ -44,9 +44,7 @@ void gomb::fogantyu(event ev){
             if (ev.pos_y > y_kor && ev.pos_y < y_kor + merety){
 
                     megnyomva=true;
-
-
-    f();
+        f();
 
         }
     }

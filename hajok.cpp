@@ -48,8 +48,8 @@ void hajok::fogantyu(event ev){
     if (ev.button==btn_left){
         if (lenyomva){
           lenyomva=false;
-          if (x_kor > 200 && x_kor < 560){
-            if (y_kor > 200 && y_kor < 560){
+          if (x_kor > 200 && x_kor < 600){
+            if (y_kor > 200 && y_kor < 600){
                 x_kor=(x_kor/40)*40;
                 y_kor=(y_kor/40)*40;
             }
@@ -69,5 +69,23 @@ void hajok::fogantyu(event ev){
 
 }
 }
+int hajok::getXKor() const {
+    return x_kor;
+}
+
+int hajok::getYKor() const {
+    return y_kor;
+}
+
+bool hajok::getForditas() const {
+    return forditas;
+}
+
+int hajok::getMekkora() const {
+    return mekkora;
+}
+
+
+
 
 

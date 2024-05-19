@@ -11,11 +11,32 @@ class os;
 
 class window{
 public:
-    vector<os*> lajos;
+    int index=-1;
+    vector<os*>* lajos;
+    vector<os*> kezdo;
+    vector<os*> lerakas;
+    vector<os*> leiras;
 public:
     void event_loop();
     window(int XX, int YY);
-    void osadas(os* a){lajos.push_back(a);}
+    void osadas(os* a){
+        if (index < 0)lajos->push_back(a);
+        else {
+            switch (index){
+        case 0:
+            kezdo.push_back(a);
+            break;
+        case 1:
+            lerakas.push_back(a);
+            break;
+        case 2:
+            leiras.push_back(a);
+            break;
+        }
+        }
+        }
+
+    void beall(int index);
 };
 
 
